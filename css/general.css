@@ -34,6 +34,8 @@ Shades: #cf711f
 --- 05 SHADOWS
 
 --- 06 BORDER-RADIUS 
+Default: 9px
+Medium: 11px
 
 9px
 
@@ -165,4 +167,8 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+strong {
+  font-weight: 500;
 }
