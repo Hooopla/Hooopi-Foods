@@ -28,7 +28,6 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 [Show big app images]
 
 **Your daily dose of health in 3 simple steps**
-
 Tell us what you like (and what not): Never again waste time thinking about what to eat! Hooopii-food AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
 
 Approve your weekly meal plan: Once per week, approve the meal plan generated for you by Hooopii-food AI. You can change ingredients, swap entire meals, or even add your own recipes.
