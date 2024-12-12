@@ -118,10 +118,12 @@ Create account
 Sign in
 iOS app
 Android app
+
 About Hooopi-food
 For Business
 Cooking partners
 Careers
+
 Recipe directory
 Help center
 Privacy & terms
