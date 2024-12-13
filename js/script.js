@@ -11,6 +11,34 @@ const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
+// Smooth Scrolling
+const allLinks = document.querySelectorAll("a:link");
+
+allLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    // Scroll the the top!
+    if (href === "#") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+
+    // Scroll to the other links
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionElement = document.querySelector(href);
+      sectionElement.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // Close mobile navigation
+    if (link.classList.contains("main-nav-link")) {
+      headerElement.classList.toggle("nav-open");
+    }
+  });
+});
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
