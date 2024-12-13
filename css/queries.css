@@ -119,6 +119,7 @@
   /* Mobile Nav */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -136,7 +137,7 @@
     transition: all 1s ease-in-out;
 
     /* Hide Navigation */
-    opacity: 0;
+    opacity: 50;
 
     pointer-events: none;
 
