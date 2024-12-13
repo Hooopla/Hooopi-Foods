@@ -545,13 +545,14 @@
                 first meal is on us! (This is not actually for Hooopi-Food if
                 you wanna contact me feel free to fill it out!)
               </p>
-              <form action="#" class="cta-form">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
                     type="text"
                     placeholder="John Doe"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -562,13 +563,14 @@
                     type="email"
                     id="email"
                     placeholder="me@example.com"
+                    email="email"
                     required
                   />
                 </div>
 
                 <div>
-                  <label>Where did you hear from us?</label>
-                  <select>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends & Family</option>
                     <option value="youtube">YouTube Ad/Video</option>
