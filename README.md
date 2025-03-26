@@ -1,2 +1,2 @@
 
-![image](./Teaser.png)
+![Teaser](./Teaser.png)
